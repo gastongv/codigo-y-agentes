@@ -1,0 +1,74 @@
+site_name: Video con código
+site_description: Recetas para producir videos publicitarios con HTML, ffmpeg y herramientas gratuitas, con los videos de GriftIA como caso práctico.
+site_url: https://gastongv.github.io/video-con-codigo/
+repo_url: https://github.com/gastongv/video-con-codigo
+repo_name: gastongv/video-con-codigo
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: es
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Pasar a modo oscuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Pasar a modo claro
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+
+extra_css:
+  - estilos.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - toc:
+      permalink: true
+
+nav:
+  - Inicio: index.md
+  - Para empezar:
+      - Herramientas: herramientas.md
+      - Instalación en Windows: instalacion-windows.md
+      - Flujo de trabajo: flujo.md
+  - Recetas:
+      - Voz en off gratis: recetas/voz.md
+      - Música, efectos y mezcla: recetas/audio.md
+      - Subtítulos: recetas/subtitulos.md
+      - Animación 2D con HTML: recetas/animacion-2d.md
+      - Comercial 3D: recetas/tres-d.md
+      - Filmación real de archivo: recetas/filmacion-real.md
+      - Producto en pantalla: recetas/producto-en-pantalla.md
+      - Spot tipográfico: recetas/tipografico.md
+      - Explicadores: recetas/explicadores.md
+      - Línea de tiempo para DaVinci: recetas/davinci-otio.md
+      - Calidad y entrega: recetas/entrega.md
+      - Cuidar la PC: recetas/rendimiento.md
+  - Caso GriftIA:
+      - Galería de videos: casos/index.md
+      - Criterios de guion y dirección: casos/criterios.md
+  - Problemas conocidos: problemas.md
+  - Créditos y licencias: creditos.md

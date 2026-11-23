@@ -1,0 +1,13 @@
+[
+ {"id": "v1", "texto": "Tus clientes te escriben a cualquier hora.", "tts": null},
+ {"id": "v2", "texto": "De día, de noche, y también el domingo.", "tts": null},
+ {"id": "v3", "texto": "Y en cualquier idioma.", "tts": null},
+ {"id": "v4", "texto": "Si nadie responde, esa venta se va a otro lado.", "tts": null},
+ {"id": "v5", "texto": "Con GriftIA, tu negocio responde al instante, por WhatsApp e Instagram.", "tts": "Con Griftia, tu negocio responde al instante, por WhatsApp e Instagram."},
+ {"id": "v6", "texto": "Agenda reservas y turnos, informa precios y horarios,", "tts": null},
+ {"id": "v7", "texto": "y cuando hace falta, pasa la conversación a tu equipo.", "tts": null},
+ {"id": "v8", "texto": "Todo queda ordenado en un solo sistema.", "tts": null},
+ {"id": "v9", "texto": "Y aprende de cada conversación, para atender cada vez mejor.", "tts": null},
+ {"id": "v10", "texto": "Tu equipo vende. GriftIA responde.", "tts": "Tu equipo vende. Griftia responde."},
+ {"id": "v11", "texto": "GriftIA. Tu negocio responde siempre.", "tts": "Griftia. Tu negocio responde siempre."}
+]

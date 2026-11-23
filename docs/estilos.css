@@ -1,0 +1,32 @@
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.2rem;
+  margin: 1.2rem 0;
+}
+
+.galeria figure {
+  margin: 0;
+}
+
+.galeria video,
+.galeria img {
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  object-fit: cover;
+  border-radius: 12px;
+  background: #0b1f3b;
+  display: block;
+}
+
+.galeria figcaption {
+  font-size: 0.72rem;
+  line-height: 1.35;
+  margin-top: 0.45rem;
+  text-align: left;
+}
+
+.galeria figcaption strong {
+  display: block;
+  font-size: 0.8rem;
+}
