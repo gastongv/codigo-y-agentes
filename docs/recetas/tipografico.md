@@ -4,7 +4,7 @@ Un video de 15 segundos sin voz: una palabra o frase corta por golpe de la músi
 
 ## Encontrar los golpes
 
-[`scripts/audio/golpes.py`](https://github.com/gastongv/video-con-codigo/blob/main/scripts/audio/golpes.py) analiza la canción con librosa:
+[`scripts/audio/golpes.py`](https://github.com/gastongv/codigo-y-agentes/blob/main/scripts/audio/golpes.py) analiza la canción con librosa:
 
 1. Detecta el tempo y el momento de cada golpe.
 2. Busca la ventana de 17 segundos con más energía y más pareja que empiece justo en un golpe.
@@ -16,7 +16,7 @@ tempo, golpes = librosa.beat.beat_track(y=y, sr=sr, units="time")
 
 ## Las tarjetas
 
-El generador ([`scripts/hyperframes/tipografico-build.mjs`](https://github.com/gastongv/video-con-codigo/blob/main/scripts/hyperframes/tipografico-build.mjs)) define el video como una tabla: cada tarjeta entra en un golpe y sale en otro.
+El generador ([`scripts/hyperframes/tipografico-build.mjs`](https://github.com/gastongv/codigo-y-agentes/blob/main/scripts/hyperframes/tipografico-build.mjs)) define el video como una tabla: cada tarjeta entra en un golpe y sale en otro.
 
 ```js
 // [id, golpe de entrada, golpe de salida, fondo, color de texto, contenido, tipo]

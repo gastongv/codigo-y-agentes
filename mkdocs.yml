@@ -1,8 +1,8 @@
-site_name: Video con código
+site_name: Código y Agentes
 site_description: Recetas para producir videos publicitarios con HTML, ffmpeg y herramientas gratuitas, con los videos de GriftIA como caso práctico.
-site_url: https://gastongv.github.io/video-con-codigo/
-repo_url: https://github.com/gastongv/video-con-codigo
-repo_name: gastongv/video-con-codigo
+site_url: https://gastongv.github.io/codigo-y-agentes/
+repo_url: https://github.com/gastongv/codigo-y-agentes
+repo_name: gastongv/codigo-y-agentes
 edit_uri: edit/main/docs/
 
 theme:

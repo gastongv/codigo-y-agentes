@@ -38,7 +38,7 @@ Si el proyecto no tiene `node_modules`, se le indica otro que sí con `--core ..
 
 ## Mezcla solo con ffmpeg
 
-Cuando el video no sale de HyperFrames (por ejemplo, una escena 3D), la mezcla se hace con un único comando de ffmpeg que arma un script de Python. Ejemplo completo: [`scripts/audio/mezcla.py`](https://github.com/gastongv/video-con-codigo/blob/main/scripts/audio/mezcla.py).
+Cuando el video no sale de HyperFrames (por ejemplo, una escena 3D), la mezcla se hace con un único comando de ffmpeg que arma un script de Python. Ejemplo completo: [`scripts/audio/mezcla.py`](https://github.com/gastongv/codigo-y-agentes/blob/main/scripts/audio/mezcla.py).
 
 La cadena:
 
@@ -88,4 +88,4 @@ ffmpeg -i entrada.mp4 -c:v copy \
 
 El sobremuestreo a 192 kHz hace que el limitador vea los picos reales entre muestras. Con `limit=0.78` el pico queda cerca de -2 dB.
 
-[`scripts/audio/master.sh`](https://github.com/gastongv/video-con-codigo/blob/main/scripts/audio/master.sh) mide el volumen del archivo, calcula la ganancia y aplica esa cadena sin recomprimir la imagen.
+[`scripts/audio/master.sh`](https://github.com/gastongv/codigo-y-agentes/blob/main/scripts/audio/master.sh) mide el volumen del archivo, calcula la ganancia y aplica esa cadena sin recomprimir la imagen.

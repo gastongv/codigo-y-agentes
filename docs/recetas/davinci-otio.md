@@ -30,7 +30,7 @@ flowchart LR
 
 ### 1. Separar el material
 
-[`scripts/davinci/armar.py`](https://github.com/gastongv/video-con-codigo/blob/main/scripts/davinci/armar.py) parte del render de la imagen y de un `montaje.json` con los tiempos, y deja:
+[`scripts/davinci/armar.py`](https://github.com/gastongv/codigo-y-agentes/blob/main/scripts/davinci/armar.py) parte del render de la imagen y de un `montaje.json` con los tiempos, y deja:
 
 - Un archivo de video por plano, cortado exacto al cuadro, con los textos y el producto ya compuestos.
 - Un WAV por frase de voz, la música con su volumen y sus fundidos, y un WAV por efecto con el volumen de la mezcla aplicado.
@@ -48,7 +48,7 @@ Este modo escribe **una pista de video y una de audio**.
 
 ### 3. Agregar las pistas que faltan
 
-[`scripts/davinci/otio_final.py`](https://github.com/gastongv/video-con-codigo/blob/main/scripts/davinci/otio_final.py) abre ese archivo (es JSON), toma un clip y un hueco de la pista de audio como moldes y arma con la misma estructura exacta:
+[`scripts/davinci/otio_final.py`](https://github.com/gastongv/codigo-y-agentes/blob/main/scripts/davinci/otio_final.py) abre ese archivo (es JSON), toma un clip y un hueco de la pista de audio como moldes y arma con la misma estructura exacta:
 
 - Una pista para la música.
 - Las pistas de efectos que hagan falta: cada efecto va a la primera pista donde no se pisa con el anterior.

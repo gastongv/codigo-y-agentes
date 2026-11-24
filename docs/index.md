@@ -1,4 +1,4 @@
-# Video con código
+# Código y Agentes
 
 Recetas para producir videos publicitarios desde una PC, con HTML, ffmpeg y herramientas gratuitas, sin cámara ni programa de edición.
 
@@ -60,8 +60,8 @@ flowchart LR
 
 ## Qué hay en el repositorio
 
-- **Esta documentación**, en [`docs/`](https://github.com/gastongv/video-con-codigo/tree/main/docs).
-- **Scripts de ejemplo**, en [`scripts/`](https://github.com/gastongv/video-con-codigo/tree/main/scripts): los que se usaron en los videos, para copiar y adaptar.
+- **Esta documentación**, en [`docs/`](https://github.com/gastongv/codigo-y-agentes/tree/main/docs).
+- **Scripts de ejemplo**, en [`scripts/`](https://github.com/gastongv/codigo-y-agentes/tree/main/scripts): los que se usaron en los videos, para copiar y adaptar.
 - **Muestras de los videos**, reducidas a 720 px.
 
 ## Con qué se hizo

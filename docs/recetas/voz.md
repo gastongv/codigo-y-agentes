@@ -2,7 +2,7 @@
 
 La locución sale de las voces neuronales de Microsoft por medio de [edge-tts](https://github.com/rany2/edge-tts). No cuesta nada y, además del audio, entrega el momento exacto en que empieza y termina cada palabra. Ese dato es el que sincroniza subtítulos y animaciones.
 
-Script completo: [`scripts/voz/voces.py`](https://github.com/gastongv/video-con-codigo/blob/main/scripts/voz/voces.py).
+Script completo: [`scripts/voz/voces.py`](https://github.com/gastongv/codigo-y-agentes/blob/main/scripts/voz/voces.py).
 
 ## El guion
 
@@ -57,7 +57,7 @@ _cm.WSS_URL = ("wss://api.msedgeservices.com/tts/cognitiveservices/websocket/v1"
                f"?Ocp-Apim-Subscription-Key={_T}")
 ```
 
-Está en [`scripts/voz/edge_fix.py`](https://github.com/gastongv/video-con-codigo/blob/main/scripts/voz/edge_fix.py): alcanza con importarlo. Cuando salga una versión corregida, se quita.
+Está en [`scripts/voz/edge_fix.py`](https://github.com/gastongv/codigo-y-agentes/blob/main/scripts/voz/edge_fix.py): alcanza con importarlo. Cuando salga una versión corregida, se quita.
 
 ## Error 429
 

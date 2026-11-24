@@ -1,8 +1,8 @@
-# Video con código
+# Código y Agentes
 
 Recetas para producir videos publicitarios desde una PC, con HTML, ffmpeg y herramientas gratuitas, sin cámara ni programa de edición. Los videos de [GriftIA](https://griftia.com.ar) son el caso práctico.
 
-**Documentación: <https://gastongv.github.io/video-con-codigo/>**
+**Documentación: <https://gastongv.github.io/codigo-y-agentes/>**
 
 ## Contenido
 

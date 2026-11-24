@@ -32,7 +32,7 @@ Marcar siempre el color como bt709 (`-colorspace bt709 -color_primaries bt709 -c
 
 Un maestro de 40 segundos puede pesar 100 MB. Para mandar por WhatsApp o subir a Instagram hace falta una versión de 5 a 30 MB que se vea igual de bien en un celular.
 
-Codificación en dos pasadas con una tasa de bits fija: [`scripts/entrega/achicar.sh`](https://github.com/gastongv/video-con-codigo/blob/main/scripts/entrega/achicar.sh).
+Codificación en dos pasadas con una tasa de bits fija: [`scripts/entrega/achicar.sh`](https://github.com/gastongv/codigo-y-agentes/blob/main/scripts/entrega/achicar.sh).
 
 ```bash
 achicar.sh entrada.mp4 salida.mp4 6000   # kbps de video

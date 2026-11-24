@@ -12,7 +12,7 @@ npx hyperframes@0.8.150 check
 npx hyperframes@0.8.150 render --resolution portrait -o renders/video.mp4
 ```
 
-Ejemplo real, corto y completo: [`scripts/hyperframes/tipografico-build.mjs`](https://github.com/gastongv/video-con-codigo/blob/main/scripts/hyperframes/tipografico-build.mjs).
+Ejemplo real, corto y completo: [`scripts/hyperframes/tipografico-build.mjs`](https://github.com/gastongv/codigo-y-agentes/blob/main/scripts/hyperframes/tipografico-build.mjs).
 
 Para una serie de videos parecidos, un módulo común exporta las piezas (personaje, chat, decoración, cierre con logo, subtítulos, audio) y cada video tiene un archivo corto con sus textos y su elenco.
 

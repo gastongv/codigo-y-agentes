@@ -59,7 +59,7 @@ with open("subtitulos.srt", "w", encoding="utf-8") as f:
         f.write("%d\n%s --> %s\n%s\n\n" % (i, tc(a), tc(b), texto))
 ```
 
-El fin de cada subtítulo se recorta para que no pise el comienzo del siguiente. Está resuelto en [`scripts/davinci/armar.py`](https://github.com/gastongv/video-con-codigo/blob/main/scripts/davinci/armar.py).
+El fin de cada subtítulo se recorta para que no pise el comienzo del siguiente. Está resuelto en [`scripts/davinci/armar.py`](https://github.com/gastongv/codigo-y-agentes/blob/main/scripts/davinci/armar.py).
 
 ## Detalle tipográfico
 

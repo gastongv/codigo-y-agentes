@@ -24,7 +24,7 @@ Un clip horizontal de 3840×2160 recortado en vertical da 1216×2160: más que l
 
 ## Hornear
 
-Versión luminosa, de color vivo: [`scripts/filmacion/hornear.py`](https://github.com/gastongv/video-con-codigo/blob/main/scripts/filmacion/hornear.py).
+Versión luminosa, de color vivo: [`scripts/filmacion/hornear.py`](https://github.com/gastongv/codigo-y-agentes/blob/main/scripts/filmacion/hornear.py).
 
 ```text
 crop=ih*9/16:ih:(iw-ih*9/16)*POS:0,
@@ -43,7 +43,7 @@ setparams=color_primaries=bt709:color_trc=bt709:colorspace=bt709
 
 ## Aspecto de cine sin oscurecer
 
-Versión con aspecto de película: [`scripts/filmacion/hornear_cine.py`](https://github.com/gastongv/video-con-codigo/blob/main/scripts/filmacion/hornear_cine.py).
+Versión con aspecto de película: [`scripts/filmacion/hornear_cine.py`](https://github.com/gastongv/codigo-y-agentes/blob/main/scripts/filmacion/hornear_cine.py).
 
 La primera versión de este estilo quedó oscura. La causa fueron tres cosas juntas: la tabla de color (LUT) aplicada entera, el brillo en negativo y una viñeta fuerte. Lo que quedó:
 
@@ -63,7 +63,7 @@ Por defecto conviene elegir planos con luz de día o de atardecer.
 Los clips de archivo traen logos: monitores, zapatillas, carteles de comercios, emblemas en paredes. En una publicidad no pueden aparecer marcas de terceros.
 
 - Buscar en el **original al 100 %** y a lo largo de **todo el plano**. En las miniaturas chicas no se ven.
-- [`scripts/filmacion/hoja_marcas.py`](https://github.com/gastongv/video-con-codigo/blob/main/scripts/filmacion/hoja_marcas.py) arma hojas con tres cuadros de cada plano (principio, medio y final) con el mismo recorte vertical y la imagen aclarada.
+- [`scripts/filmacion/hoja_marcas.py`](https://github.com/gastongv/codigo-y-agentes/blob/main/scripts/filmacion/hoja_marcas.py) arma hojas con tres cuadros de cada plano (principio, medio y final) con el mismo recorte vertical y la imagen aclarada.
 - La mayoría se resuelve **recortando**: el 4K da margen para sacar el borde donde está el logo sin perder nitidez.
 - Si no se puede recortar, se cambia el plano.
 

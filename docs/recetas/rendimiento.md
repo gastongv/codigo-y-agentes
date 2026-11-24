@@ -20,7 +20,7 @@ Renderizar, transcribir y codificar usan todo el procesador que encuentran. Si l
 
 ## Prioridad baja en Windows
 
-[`scripts/windows/bajo.ps1`](https://github.com/gastongv/video-con-codigo/blob/main/scripts/windows/bajo.ps1) corre una línea de comando con prioridad "por debajo de lo normal". Los procesos hijos la heredan, así que alcanza con envolver el comando principal.
+[`scripts/windows/bajo.ps1`](https://github.com/gastongv/codigo-y-agentes/blob/main/scripts/windows/bajo.ps1) corre una línea de comando con prioridad "por debajo de lo normal". Los procesos hijos la heredan, así que alcanza con envolver el comando principal.
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File bajo.ps1 salida.log "npx hyperframes@0.8.150 render --no-browser-gpu --workers 1 -o renders/video.mp4"
