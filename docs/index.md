@@ -28,7 +28,7 @@ Todo lo que está acá salió de hacer los videos de [GriftIA](https://griftia.c
 
 </div>
 
-[Ver todos los videos](casos/index.md){ .md-button }
+[Ver los cortos](cortos/index.md){ .md-button .md-button--primary } [Ver todos los videos](casos/index.md){ .md-button }
 
 ## La idea
 
